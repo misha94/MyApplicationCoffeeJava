@@ -46,7 +46,7 @@ public class MainActivity extends ActionBarActivity {
     }
 
     private String createOrderSummary(int price) {
-        String orderMassage = "Name: Popkov Mikhail"+ "" + "\nQuantity: " + quantity + "\nTotal: " + price + " руб." + "\nThank you!";
+        String orderMassage = "Name: Popkov Mikhail"+ "Топпинг" + "\nQuantity: " + quantity + "\nTotal: " + price + " руб." + "\nThank you!";
         return orderMassage;
     }
 
